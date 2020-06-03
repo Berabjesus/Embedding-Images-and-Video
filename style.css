@@ -1,1 +1,25 @@
-
+/* Default  Properties*/
+body{
+    background-color: #F1F1F1;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 150px 90vh 10vh;
+    row-gap: 20px;
+}
+header{
+    background-color: cadetblue;
+    border: 2px solid black;
+    height: 100%;
+}
+.mainContent{
+    background-color: chocolate;
+    border: 2px solid black;
+    height: 100%;
+}
+footer{
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
