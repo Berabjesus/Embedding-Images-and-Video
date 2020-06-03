@@ -41,7 +41,10 @@ nav>.icon>span {
     display: block;
     margin-bottom: 5px;
 }
-nav>.icon:hover nav>.icon>span:hover{
+nav>.icon:hover{
+    cursor: pointer;
+}
+nav>.icon:hover span{
     background-color: #eeeeee;
 }
 nav>.icon>span:last-child{
@@ -49,11 +52,11 @@ nav>.icon>span:last-child{
 }
 nav>.img {
     margin: 0 20px;
-
-
-
 }
-nav>.search>.box>.box__search{
+.search{
+    margin: 0 0 0 60px;
+}
+.box__search{
     width: 600px;
     height: 30px;
     border: 1px solid #eeeeee;
@@ -61,25 +64,35 @@ nav>.search>.box>.box__search{
     font-size: 16px;
 }
 
-nav>.search>.box>a{
+.box>a{
     width: 100px;
-    height: 15px;
-    padding: 8px 30px;
-    background-color: #eeeeee;
-    border: 1px #dddddd;
+    height: 5px;
+    padding: 6px 30px;
+    background-color: #F8F8F8;
+    border: 1px solid #dddddd;
     margin-left: -4px;
 }
-nav>.search>.box>a>img{
+.box>a>img{
     width: 15px;
     height: 15px;
     text-align: center;
 }
-nav>.search>.upload{
+.upload{
+    margin: 0 0px 0 120px;
 }
-nav>.search>.upload>img{
-    width: 15px;
-    height: 15px;
+.upload>img{
+    width: 30px;
+    height: 30px;
+}
+.navbar__signIn{
+    background-color: #167AC6;
     text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 0 0px 0 120px;
+    border-style: unset;
+    height: 30px;
+    width: 70px;
 }
 .lang-bar{
     grid-template-columns: auto;
