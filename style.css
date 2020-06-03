@@ -3,23 +3,40 @@ body{
     background-color: #F1F1F1;
     margin: 0;
 }
-.container{
+.grid{
     display: grid;
+}
+.border{
+    border: 2px solid black;
+}
+.container{
     grid-template-columns: auto;
-    grid-template-rows: 150px 90vh 10vh;
+    grid-template-rows: 130px 90vh 10vh;
     row-gap: 20px;
 }
 header{
-    background-color: cadetblue;
-    border: 2px solid black;
+    /* background-color: cadetblue; */
     height: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 60px 60px;
+    row-gap: 10px;
+}
+nav{
+    background-color: white;
+}
+.lang-bar{
+    grid-template-columns: auto;
+}
+.lang-bar-header{
+    background-color: blueviolet;
+}
+.lang-bar-content{
+    background-color: white;
 }
 .mainContent{
     background-color: chocolate;
-    border: 2px solid black;
     height: 100%;
 }
 footer{
     background-color: whitesmoke;
-    border: 2px solid black;
 }
