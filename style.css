@@ -6,6 +6,9 @@ body{
 .grid{
     display: grid;
 }
+.flex{
+    display: flex;
+}
 .border{
     border: 2px solid black;
 }
@@ -77,12 +80,11 @@ nav>.img {
     height: 15px;
     text-align: center;
 }
-.upload{
-    margin: 0 0px 0 120px;
+.tools{
+    margin: 0 0 0 40px;
 }
-.upload>img{
-    width: 30px;
-    height: 30px;
+.tools>a{
+    margin: 0 20px 0 0;
 }
 .navbar__signIn{
     background-color: #167AC6;
@@ -99,6 +101,11 @@ nav>.img {
 }
 .lang-bar-header{
     background-color: blueviolet;
+    flex-direction: row;
+    height: 50%;
+}
+.lang-bar-header>strong{
+    color: white;
 }
 .lang-bar-content{
     background-color: white;
