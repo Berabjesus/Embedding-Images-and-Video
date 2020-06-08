@@ -2,7 +2,7 @@
 
 > This page is a clone of a youtube page made for the Milestone 1 project of Microverse.
 
-![screenshot](.media/screenshot.JPG)
+![screenshot](media/screenshot.JPG)
 
 Additional description about the project and its features.
 
