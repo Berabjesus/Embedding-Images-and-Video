@@ -12,14 +12,14 @@ li {
 .flex{
     display: flex;
 }
-
+/* main body */
 .container{
     grid-template-columns: auto;
     grid-template-rows: 130px 100% 10vh;
     row-gap: 20px;
 }
+/* header */
 header{
-    /* background-color: cadetblue; */
     height: 100%;
     grid-template-columns: auto;
     grid-template-rows: 60px 60px;
@@ -97,6 +97,7 @@ nav>.img {
     height: 30px;
     width: 70px;
 }
+/* language bar */
 .lang-bar{
     grid-template-columns: auto;
     grid-template-rows: 50% 50%;
@@ -127,14 +128,13 @@ nav>.img {
     margin: 0 0 0 auto;
 }
 
-footer{
-    background-color: whitesmoke;
-}
+/* iframe and side bar */
 .mainContent{
    flex-direction: row; 
    justify-content: space-between;
    height: 100%;
 }
+/* main video section */
 main{
     flex-direction: column;
     align-content: center;
@@ -215,8 +215,6 @@ main{
 .side-bar>div{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* margin: 0 0 0 10px; */
     padding: 10px 0 10px 20px;
 }
 .side-bar>div>p{
@@ -262,8 +260,6 @@ main{
 .suggestion > iframe {
     width: 220px;
     height: 130px;
-
-
 }
 .suggestion>div>p:first-child {
     overflow: hidden;
