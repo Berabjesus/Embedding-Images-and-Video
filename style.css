@@ -98,17 +98,32 @@ nav>.img {
 }
 .lang-bar{
     grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
 }
 .lang-bar-header{
     background-color: blueviolet;
     flex-direction: row;
-    height: 50%;
+}
+.lang-bar-icon>img{
+    height: 20px;
 }
 .lang-bar-header>strong{
     color: white;
 }
+.lang-bar-header-close{
+    margin-left: auto;
+}
+.lang-bar-header-close>a>img{
+    height: 20px;
+}
 .lang-bar-content{
     background-color: white;
+}
+.lang-bar-content>p{
+    margin: 0;
+}
+.lang-bar-content>a{
+    margin: 0 0 0 auto;
 }
 .mainContent{
     background-color: chocolate;
