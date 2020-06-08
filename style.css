@@ -14,7 +14,7 @@ iframe {
 
 .grid {
   display: grid;
-} 
+}
 
 .flex {
   display: flex;
@@ -42,14 +42,14 @@ nav {
   align-items: center;
 }
 
-nav>.icon {
+nav> .icon {
   width: 20px;
   display: flex;
   flex-direction: column;
   margin: 0 5px 0 60px;
 }
 
-nav>.icon>span {
+nav> .icon>span {
   background-color: black;
   width: 100%;
   height: 2px;
@@ -57,15 +57,15 @@ nav>.icon>span {
   margin-bottom: 5px;
 }
 
-nav>.icon:hover {
+nav> .icon:hover {
   cursor: pointer;
 }
 
-nav>.icon:hover span {
+nav> .icon:hover span {
   background-color: #eeeeee;
 }
 
-nav>.icon>span:last-child {
+nav> .icon>span:last-child {
   margin-bottom: 0px;
 }
 
