@@ -66,11 +66,6 @@ nav > .icon > span {
   margin-bottom: 5px;
 }
 
-.loading > span {
-  align-self: center;
-  margin: 0 0 0 10px;
-}
-
 nav > .icon:hover {
   cursor: pointer;
 }
