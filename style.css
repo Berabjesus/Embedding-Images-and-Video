@@ -104,6 +104,9 @@ nav>.icon>span:last-child{
     height: 30px;
     width: 70px;
 }
+.navbar__signIn:hover{
+    cursor: pointer;
+}
 /* language bar */
 .lang-bar{
     grid-template-columns: auto;
