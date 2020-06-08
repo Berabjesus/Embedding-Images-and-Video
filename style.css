@@ -1,6 +1,6 @@
 /* Default  Properties*/
 body{
-    background-color: #F1F1F1;
+    background-color: #F9F9F9;
     margin: 0;
 }
 li {
@@ -12,12 +12,10 @@ li {
 .flex{
     display: flex;
 }
-.border{
-    border: 2px solid black;
-}
+
 .container{
     grid-template-columns: auto;
-    grid-template-rows: 130px auto 10vh;
+    grid-template-rows: 130px 100% 10vh;
     row-gap: 20px;
 }
 header{
@@ -136,18 +134,83 @@ footer{
    flex-direction: row; 
    justify-content: space-between;
    height: 100%;
-   background-color: chocolate;
 }
 main{
+    flex-direction: column;
+    align-content: center;
     width: 65%;
+    padding: 0 10px 0 80px;
 }
+.mainContent>main>iframe{
+    width: 100%; 
+    height: 506px;
+}
+.iframe-discription{
+    border-bottom: 1px solid gainsboro;
+}
+.iframe-discription-stats>p{
+    margin:  0 20px 0 0;
+}
+.iframe-discription-stats>span{
+    margin-left: auto;
+}
+.iframe-discription-stats>span>a{
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    color: thistle;
+}
+.iframe-avatar{
+    flex-direction: row;
+    height: 200px;
+    border-bottom: 1px solid gainsboro;
+}
+.avatar-img>img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.avatar-disc>p{
+    margin: 0;
+}
+.avatar-disc>a:last-child{
+    margin: 40px 0 0 0;
+}
+
+.iframe-avatar>button{
+    align-self:flex-start;
+    margin-left: auto;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: red;
+    border-style: unset;
+    font-size: 18px;
+}
+.iframe-avatar>button:hover{
+    cursor: pointer;
+}
+.loading{
+    justify-content: center;
+    height: 50px;
+}
+.loading-icon{
+    width: 30px;
+    height: 30px;
+    border: 5px dotted black;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+}
+.loading>span{
+    align-self: center;
+    margin: 0 0 0 10px;
+}
+
 /* Side Bar*/
 .side-bar{
     height: auto;
     width:30%;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
 }
 .side-bar>div{
     display: flex;
@@ -217,3 +280,12 @@ main{
 }
 
 /**/
+/* Animation for the laoding icon */
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+}
+    100%{
+        transform: rotate(360deg);
+}
+}
