@@ -6,6 +6,9 @@ body{
 li {
     list-style: none;
 }
+iframe{
+    border-style: unset;
+}
 .grid{
     display: grid;
 }
@@ -35,7 +38,7 @@ nav>.icon {
     width: 20px;
     display: flex;
     flex-direction: column;
-    margin: 0 5px 0 100px;
+    margin: 0 5px 0 60px;
 }
 
 nav>.icon>span {
@@ -54,8 +57,12 @@ nav>.icon:hover span{
 nav>.icon>span:last-child{
     margin-bottom: 0px;
 }
-nav>.img {
-    margin: 0 20px;
+.brand {
+    margin: 0 120px 0 20px;
+}
+.brand>img{
+    max-height: 100px;
+    max-width: 100px;
 }
 .search{
     margin: 0 0 0 60px;
@@ -101,6 +108,7 @@ nav>.img {
 .lang-bar{
     grid-template-columns: auto;
     grid-template-rows: 50% 50%;
+    border: 2px solid blueviolet;
 }
 .lang-bar-header{
     background-color: blueviolet;
@@ -157,9 +165,10 @@ main{
 .iframe-discription-stats>span>a{
     margin: 0 20px 0 0;
     text-decoration: none;
-    color: thistle;
+    color:grey;
 }
 .iframe-avatar{
+    margin: 10px 0 0 0;
     flex-direction: row;
     height: 200px;
     border-bottom: 1px solid gainsboro;
@@ -169,8 +178,11 @@ main{
     width: 60px;
     border-radius: 50%;
 }
+.avatar-disc{
+    margin: 10px 0 0 10px;
+}
 .avatar-disc>p{
-    margin: 0;
+    margin: 0 ;
 }
 .avatar-disc>a:last-child{
     margin: 40px 0 0 0;
