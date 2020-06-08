@@ -53,6 +53,11 @@ nav > .icon {
   margin-left: auto;
 }
 
+.loading > span {
+  align-self: center;
+  margin: 0 0 0 10px;
+}
+
 nav > .icon > span {
   background-color: black;
   width: 100%;
@@ -61,13 +66,13 @@ nav > .icon > span {
   margin-bottom: 5px;
 }
 
-nav > .icon:hover {
-  cursor: pointer;
-}
-
 .loading > span {
   align-self: center;
   margin: 0 0 0 10px;
+}
+
+nav > .icon:hover {
+  cursor: pointer;
 }
 
 nav > .icon:hover span {
@@ -198,7 +203,7 @@ main {
   padding: 0 10px 0 80px;
 }
 
-.suggestion  >  iframe {
+.suggestion > iframe {
   width: 220px;
   height: 130px;
 }
@@ -267,11 +272,6 @@ main {
   border: 5px dotted black;
   border-radius: 50%;
   animation: rotate 2s linear infinite;
-}
-
-.loading > span {
-  align-self: center;
-  margin: 0 0 0 10px;
 }
 
 /* Side Bar */
@@ -344,7 +344,8 @@ main {
   margin-bottom: 50px;
 }
 
-.tag, .view {
+.tag,
+.view {
   font-weight: 300;
   color: rgb(118, 118, 118);
   margin: 0;
