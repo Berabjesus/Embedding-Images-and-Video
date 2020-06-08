@@ -137,20 +137,36 @@ footer{
 }
 .mainContent{
    flex-direction: row; 
+   height: auto;
 }
 main{
     width: 70%;
 }
 /* Side Bar*/
 .side-bar{
+    height: auto;
     width: 40%;
     display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+.side-bar>div{
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+
+}
+.side-bar>div:first-child>div{
+}
+.side-bar>ul>li:first-child{
+   border-bottom: 1px solid #dddddd;
+   margin-bottom: 10px;
 }
 .suggestion{
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-bottom: 15px;
 }
 .suggestion > iframe {
     width: 220px;
@@ -158,10 +174,18 @@ main{
 
 
 }
-.suggestion>p {
+.suggestion>div>p:first-child {
     overflow: hidden;
     height: 15px;
     font-weight: 800;
     margin: 0;
+    color: #151615;
+    margin-bottom: 50px;
 }
+.tag, .view{
+    font-weight: 300;
+    color: rgb(118, 118, 118);
+    margin: 0;
+}
+
 /**/
