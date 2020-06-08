@@ -3,6 +3,9 @@ body{
     background-color: #F1F1F1;
     margin: 0;
 }
+li {
+    list-style: none;
+}
 .grid{
     display: grid;
 }
@@ -132,3 +135,33 @@ nav>.img {
 footer{
     background-color: whitesmoke;
 }
+.mainContent{
+   flex-direction: row; 
+}
+main{
+    width: 70%;
+}
+/* Side Bar*/
+.side-bar{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+.suggestion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.suggestion > iframe {
+    width: 220px;
+    height: 130px;
+
+
+}
+.suggestion>p {
+    overflow: hidden;
+    height: 15px;
+    font-weight: 800;
+    margin: 0;
+}
+/**/
