@@ -1,0 +1,387 @@
+/* Default  Properties */
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+iframe {
+  border-style: unset;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+/* main body */
+.container {
+  grid-template-columns: auto;
+  grid-template-rows: 130px 100% 10vh;
+  row-gap: 20px;
+}
+
+/* header */
+header {
+  height: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: 60px 60px;
+  row-gap: 10px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.brand {
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  width: 30%;
+  height: 100%;
+}
+
+.toggle-menu {
+  width: 10%;
+  margin: 0 0 0 20px;
+}
+
+.toggle-menu:hover {
+  cursor: pointer;
+}
+
+.toggle-Icon {
+  background-color: black;
+  width: 50%;
+  height: 2px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.toggle-menu:hover .toggle-Icon {
+  cursor: pointer;
+  background-color: rgb(144, 190, 190);
+}
+
+.brand-icon {
+  width: 60%;
+}
+
+.brand-icon:hover {
+  cursor: pointer;
+}
+
+.search {
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 2;
+  width: 45%;
+  height: 100%;
+}
+
+.search-from {
+  width: 90%;
+}
+
+.search-area {
+  width: 80%;
+  border: 1px solid lightgrey;
+  padding: 0 0 0 10px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.search-button {
+  width: 12%;
+  height: 32px;
+  border: 1px solid lightgrey;
+  border-left: none;
+  background-image: url('https://image.flaticon.com/icons/svg/483/483356.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.4em;
+  border-radius: 3px;
+  filter: opacity(50%);
+}
+
+.search-button:hover {
+  filter: opacity(100%);
+  cursor: pointer;
+}
+
+.tools {
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  padding: 0 20px 0 0;
+  flex-shrink: 0;
+}
+
+.tools > a {
+  margin: 0 0 0 30px;
+}
+
+.lang-bar-content > a {
+  margin: 0 0 0 auto;
+}
+
+.iframe-discription-stats > span > a {
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  color: grey;
+}
+
+.tools > a:hover {
+  cursor: pointer;
+}
+
+.signin-button {
+  background-color: #167ac6;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  border-style: unset;
+  margin: 0 20px 0 auto;
+  height: 30px;
+  width: 70px;
+}
+
+.signin-button:hover {
+  cursor: pointer;
+}
+
+/* language bar */
+.lang-bar {
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  border: 2px solid blueviolet;
+}
+
+.lang-bar-header {
+  background-color: blueviolet;
+  flex-direction: row;
+}
+
+.lang-bar-header > strong {
+  color: white;
+}
+
+.lang-bar-header-close {
+  margin-left: auto;
+}
+
+.lang-bar-icon > img {
+  height: 20px;
+}
+
+.avatar-img > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.lang-bar-header-close > a > img {
+  height: 20px;
+}
+
+.lang-bar-content {
+  background-color: white;
+}
+
+.lang-bar-content > p {
+  margin: 0;
+}
+
+/* iframe and side bar */
+.mainContent {
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* main video section */
+main {
+  flex-direction: column;
+  align-content: center;
+  width: 65%;
+  padding: 0 10px 0 80px;
+}
+
+.suggestion > iframe {
+  width: 220px;
+  height: 130px;
+}
+
+.mainContent > main > iframe {
+  width: 100%;
+  height: 506px;
+}
+
+.iframe-discription {
+  border-bottom: 1px solid gainsboro;
+}
+
+.iframe-discription-stats > p {
+  margin: 0 20px 0 0;
+}
+
+.iframe-discription-stats > span {
+  margin-left: auto;
+}
+
+.iframe-avatar {
+  margin: 10px 0 0 0;
+  flex-direction: row;
+  height: 200px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.avatar-disc {
+  margin: 10px 0 0 10px;
+}
+
+.avatar-disc > p {
+  margin: 0;
+}
+
+.avatar-disc > a:last-child {
+  margin: 40px 0 0 0;
+}
+
+.iframe-avatar > button {
+  align-self: flex-start;
+  margin-left: auto;
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: red;
+  border-style: unset;
+  font-size: 18px;
+}
+
+.iframe-avatar > button:hover {
+  cursor: pointer;
+}
+
+.loading {
+  justify-content: center;
+  height: 50px;
+}
+
+.loading-icon {
+  width: 30px;
+  height: 30px;
+  border: 5px dotted black;
+  border-radius: 50%;
+  animation: rotate 2s linear infinite;
+}
+
+.loading > span {
+  align-self: center;
+  margin: 0 0 0 10px;
+}
+
+/* Side Bar */
+.side-bar {
+  height: auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-bar > div {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 10px 20px;
+}
+
+.side-bar > div > p {
+  margin: 0;
+}
+
+.suggestion-info > p:first-child {
+  overflow: hidden;
+  max-height: 15px;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+  color: #151615;
+}
+
+.side-bar > div > p:nth-child(2) {
+  margin-left: auto;
+}
+
+.toggle {
+  margin: 0 20px 10px;
+  width: 40px;
+  height: 15px;
+  background-color: rgb(223, 177, 177);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.roundToggle {
+  position: relative;
+  top: -30%;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(56, 56, 248);
+  border-radius: 50%;
+}
+
+.roundToggle:active {
+  transform: translateX(20px);
+}
+
+.side-bar > ul {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.side-bar > ul > li:first-child {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.suggestion {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.suggestion > div {
+  margin: 0 0 0 15px;
+}
+
+.suggestion-info {
+  padding: 0 20px 0 0;
+}
+
+.tag,
+.view {
+  font-weight: 300;
+  color: rgb(118, 118, 118);
+  margin: 0;
+}
+
+/* Animation for the laoding icon */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

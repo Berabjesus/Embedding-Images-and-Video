@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Embedding Images and Video</title>
+</head>
+
+<body>
+    <div class="container grid">
+        <header class=" grid">
+            <nav class="navbar flex">
+                <div class="brand flex">
+                    <div class="toggle-menu">
+                        <a class="toggle-Icon"></a>
+                        <a class="toggle-Icon"></a>
+                        <a class="toggle-Icon"></a>
+                    </div>
+                    <div class="brand-div">
+                        <img class="brand-icon" src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="brand">
+                    </div>
+                </div>
+
+                <div class="search flex">
+                    <form action="#" class="search-from flex">
+                        <input class="search-area" type="text" name="search" placeholder="Search">
+                        <button class="search-button" type="submit"></button>
+                    </form>
+                </div>
+
+                <div class="tools flex">
+                    <a href="#"> <img src="https://img.icons8.com/material/24/000000/upload--v1.png" alt="upload" title="Uplaod"> </a>
+                    <a href="#"> <img src="https://img.icons8.com/metro/26/000000/video-call.png" alt="videocall" title="Go live"/> </a>
+                    <a href="#"> <img src="https://img.icons8.com/material-sharp/24/000000/squared-menu.png" alt="menu" title="Apps"/> </a>
+                    <button class="signin-button">Sign In</button>
+                </div>
+            </nav>
+
+            <div class="lang-bar grid">
+                <div class="lang-bar-header flex">
+                    <span class="lang-bar-icon">
+                        <img src="https://img.icons8.com/offices/30/000000/talk-male.png" alt="avatar"/>
+                    </span>
+                    <strong>Choose your language.</strong>
+                    <span class="lang-bar-header-close"> 
+                        <a href="#"> <img src="https://img.icons8.com/ios-glyphs/30/000000/multiply.png" alt="close"/> </a>
+                    </span>
+                </div>
+
+                <div class="lang-bar-content flex">
+                    <p>You're viewing YouTube in English (US). You can <span> <a href="#">change this preference below.</a> </span> </p>
+                    <a href="#"> <em>Learn More</em> </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="mainContent  flex">
+            <main class="flex">
+                <iframe src="https://www.youtube.com/embed/rH1RTwaAeGc" 
+                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen> </iframe>
+
+                <div class="iframe-discription -bottom">
+                    <h3>My Favorite VS Code Extensions</h3>
+                    <div class="iframe-discription-stats flex">
+                        <p>404,290 views</p>
+                        <p>Jan 8, 2019</p>
+                        <span>
+                            <a href="#"> <img src="https://img.icons8.com/material-rounded/24/000000/thumb-up.png" alt="like"/> 14K</a>
+                            <a href="#"> <img src="https://img.icons8.com/material-sharp/24/000000/thumbs-down.png" alt="dislike"/> 219</a> 
+                            <a href="#"> <img src="https://img.icons8.com/ios-glyphs/24/000000/forward-arrow.png" alt="sahre"/> SHARE</a>
+                            <a href="#">SAVE</a>
+                            <a href="#"> <img src="https://img.icons8.com/android/24/000000/more.png" alt="others"/> </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="iframe-avatar flex">
+                    <picture class="avatar-img"> <img src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar"/> </picture>
+                    
+                    <div class="avatar-disc">
+                        <strong>Colt Steele</strong>
+                        <p>115K subscribers</p>
+                        <p>Click "Show More" below for a full list of every extension I cover, as well as timestamps to jump ahead.</p>
+                        <a href="#">0:00:34</a> <span> Emmet</span>
+
+                        <br>
+                        
+                        <a href="#">SHOW MORE</a>
+                    </div>    
+                    <button>Subscribe</button>
+                </div>
+                <div class="loading  flex">
+                    <div class="loading-icon"> </div>
+                    <span>Loading  . . . </span>
+                </div>
+            </main>
+
+            <aside class="side-bar">
+                <div>
+                    <p>Up Next</p>
+                    <p>Autoplay</p>
+                    <div class="toggle">
+                        <div class="roundToggle"> </div>
+                    </div>
+                </div>
+               <ul>
+                   <li>
+                       <div class="suggestion">
+                           <iframe src="https://www.youtube.com/embed/iiADhChRriM" 
+                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen> </iframe>
+                            <div class="suggestion-info">                           
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class="tag">Coding is fun</p>
+                                <p class="view">30920 views . 10 hours ago</p>
+                            </div>
+                        </div>
+                   </li>
+                   <li>
+                       <div class="suggestion">
+                           <iframe src="https://www.youtube.com/embed/iiADhChRriM" 
+                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen> </iframe>
+                            <div class="suggestion-info">                           
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. quisqu</p>
+                                <p class="tag">Coding is fun</p>
+                                <p class="view">30920 views . 10 hours ago</p>
+                            </div>
+
+                        </div>
+                   </li>
+                   <li>
+                       <div class="suggestion">
+                           <iframe src="https://www.youtube.com/embed/iiADhChRriM" 
+                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen> </iframe>
+                            <div class="suggestion-info">                          
+                                <p class="header">Lorem ipsum dolor sit amet consectetur adipisicing elit. quisqu</p>
+                                <p class="tag">Coding is fun</p>
+                                <p class="view">30920 views . 10 hours ago</p>
+                            </div>
+
+                        </div>
+                   </li>
+                   <li>
+                       <div class="suggestion">
+                           <iframe src="https://www.youtube.com/embed/iiADhChRriM" 
+                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen> </iframe>
+                            <div class="suggestion-info">                          
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. uisqu</p>
+                                <p class="tag">Coding is fun</p>
+                                <p class="view">30920 views . 10 hours ago</p>
+                            </div>
+
+                        </div>
+                   </li>
+                   <li>
+                    <div class="suggestion">
+                        <iframe src="https://www.youtube.com/embed/iiADhChRriM" 
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                         allowfullscreen> </iframe>
+                         <div class="suggestion-info">                           
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. uisqu</p>
+                            <p class="tag">Coding is fun</p>
+                            <p class="view">30920 views . 10 hours ago</p>
+                         </div>
+
+                     </div>
+                </li>
+               </ul>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>
