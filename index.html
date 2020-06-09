@@ -11,29 +11,29 @@
 <body>
     <div class="container grid">
         <header class=" grid">
-            <nav class="navbar">
-                <div class="icon">
-                  <span> </span>
-                  <span> </span>
-                  <span> </span>
-                  </div>
-                <div class="brand">
-                  <img src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="brand">
-                </div>
-                <div class="search">
-                    <div class="box">
-                        <input class="box__search" type="text" placeholder="search">
-                        <a href="#">
-                            <img src="https://image.flaticon.com/icons/svg/483/483356.svg" alt="search"/>
-                        </a>
+            <nav class="navbar flex">
+                <div class="brand flex">
+                    <div class="toggle-menu">
+                        <a class="toggle-Icon"></a>
+                        <a class="toggle-Icon"></a>
+                        <a class="toggle-Icon"></a>
+                    </div>
+                    <div class="brand-div">
+                        <img class="brand-icon" src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="brand">
                     </div>
                 </div>
-                <div class="tools">
+                <div class="search flex">
+                    <form action="#" class="search-from flex">
+                        <input class="search-area" type="text" name="search" placeholder="Search">
+                        <button class="search-button" type="submit"></button>
+                    </form>
+                </div>
+                <div class="tools flex">
                     <a href="#"> <img src="https://img.icons8.com/material/24/000000/upload--v1.png" alt="upload" title="Uplaod"> </a>
                     <a href="#"> <img src="https://img.icons8.com/metro/26/000000/video-call.png" alt="videocall" title="Go live"/> </a>
                     <a href="#"> <img src="https://img.icons8.com/material-sharp/24/000000/squared-menu.png" alt="menu" title="Apps"/> </a>
+                    <button class="signin-button">Sign In</button>
                 </div>
-                <button class="navbar__signIn">Sign In</button>
             </nav>
 
             <div class="lang-bar grid">
