@@ -2,7 +2,7 @@
 
 > This page is a clone of a youtube page made for the Milestone 1 project of Microverse.
 
-![screenshot]()
+![screenshot](media/screenshot.JPG)
 
 This project consists of building an HTML document that matches the appearance of youtube video player page.
 
