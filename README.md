@@ -4,7 +4,7 @@
 
 ![screenshot](media/screenshot.JPG)
 
-Additional description about the project and its features.
+This project consists of building an HTML document that matches the appearance of youtube video player page.
 
 ## Built With
 
